@@ -20,7 +20,7 @@ if (/Mobi|Android|iPhone|iPod|iPad/i.test(navigator.userAgent)) {
 function camera() {
   navigator.mediaDevices
     .getUserMedia({
-      video
+      video: { width: 1280, height: 720 }
     })
     .then(stream => {
       videoElement.srcObject = stream;
