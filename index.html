@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>smile on five</title>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/face-api.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <img class="smile" src="/assets/smile.svg" alt="smiling face"
+      /></a>
+    </header>
+    <h1 class="title">smile on five</h1>
+    <div class="video__border">
+      <player>
+        <video id="video" autoplay muted></video>
+      </player>
+    </div>
+    <p class="time">00:00:000</p>
+    <div class="button__group">
+      <button class="cameraBtn">1. Load camera</button>
+      <button class="loadBtn" disabled>
+        2. Load models (takes a little bit of time!)
+      </button>
+      <button class="goBtn" disabled>3. Start!</button>
+    </div>
+    <p class="description">
+      Can you smile on exactly 5 seconds? To play this game you will need to let
+      your browser access your camera. All facial recognition takes place on
+      <u>your device</u>, nothing is sent elsewhere.
+    </p>
+    <footer>
+      <p>
+        SVG made by
+        <a href="https://www.flaticon.com/authors/freepik" target="_blank"
+          >freepik</a
+        >
+        | this app is open source and available
+        <a href="#" target="_blank">here</a>
+      </p>
+    </footer>
+    <script src="js/smile.js"></script>
+  </body>
+</html>
