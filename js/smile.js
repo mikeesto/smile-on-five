@@ -14,7 +14,7 @@ let timer;
 
 if (/Mobi|Android|iPhone|iPod|iPad/i.test(navigator.userAgent)) {
   document.querySelector(".warning").textContent =
-    "Hi! Thanks for checking out this app. Unfortunately it doesn't perform well on mobile. You can give it a go, but you might have a better experience on a desktop";
+    "Hi! Thanks for checking out this app. Unfortunately it doesn't perform well on mobile. You can try, but you'll likely have a better experience on a laptop/desktop. Sorry :(";
 }
 
 function camera() {

@@ -38,13 +38,14 @@ header {
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  margin-bottom: 10px;
+  color: #f03d34;
 }
 
 .time {
   font-size: 2em;
   font-weight: bold;
   margin-top: 0.5em;
-  /* color: #f03d34; */
 }
 
 button {
